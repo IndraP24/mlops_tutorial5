@@ -12,7 +12,7 @@ jobs:
         run: |
 
           # Run the test
-          pip3 install -r requirements.txt --ignore-installed ruamel.yaml
+          pip install -r requirements.txt
           python run_perturbation_test.py
           
           # Report the diff
