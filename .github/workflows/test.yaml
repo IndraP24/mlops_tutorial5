@@ -13,6 +13,7 @@ jobs:
 
           # Run the test
           pip install -r requirements.txt
+          conda install protobuf
           python run_perturbation_test.py
           
           # Report the diff
