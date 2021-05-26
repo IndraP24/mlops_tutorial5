@@ -1,8 +1,5 @@
-conda
 transformers
 nlpaug
 pandas
 torch
 tabulate
-sentencepiece
-dvc
