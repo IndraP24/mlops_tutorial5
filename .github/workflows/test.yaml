@@ -12,7 +12,7 @@ jobs:
         run: |
 
           # Run the test
-          pip install -r requirements.txt
+          pip install -r requirements.txt --ignore-installed ruamel.yaml
           conda install protobuf
           python run_perturbation_test.py
           
